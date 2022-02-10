@@ -24,13 +24,13 @@ class DeportistaController extends Controller
 
     /**
      * Show the form for creating a new resource.
-     *<td>{{articulo}} </td>
+     *
      * @return \Illuminate\Http\Response
      */
     public function create()
     {
-        /*Pido la vista create para crear nuevos deportistas */
-        return view("post..create"); //Viws.deportista.create.blade.php
+        
+        return view("post.create"); 
     }
 
     /**
