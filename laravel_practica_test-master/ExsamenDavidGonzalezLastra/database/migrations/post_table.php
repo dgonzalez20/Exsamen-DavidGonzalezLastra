@@ -21,4 +21,6 @@ class post_table extends Migration
             $table->string('acceso'); 
             $table->string('privado'); 
             $table->string('publico'); 
-        
+        });
+    }}
+    
