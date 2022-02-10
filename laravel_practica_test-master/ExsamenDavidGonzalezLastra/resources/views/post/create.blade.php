@@ -22,13 +22,15 @@
         <label for="accion" class="form-label" id="accion"> Control de acceso</label>
         <input type="checkbox" id="accion"> caducable 
         <input type="checkbox" id="accion">comentable
+        value="{{ old('accion'),$noticias->accion }}"
     </div>
 
 <div class="mb-3">
-    <select name="control_acceso" id="control_acceso"></select>
-        <option value="Acceso"> Acceso</option>
+     <select name="control_acceso" id="control_acceso"></select>value="{{old('control_acceso'),$noticias->control_axxeso }}"></select> 
+        <option value="Acceso" > Acceso</option>
         <option value="Publico">Publico</option>
         <option value="Private">Private</option>
+        
 
 </div>
 
