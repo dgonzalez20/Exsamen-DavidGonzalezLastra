@@ -19,7 +19,7 @@
         value="{{ old('extracto_publicacion'), $noticias->extractopublicacion }}">
     </div>
     <div class="mb-3">
-        <label for="accion" class="form-label"> Control de acceso</label>
+        <label for="accion" class="form-label" id="accion"> Control de acceso</label>
         <input type="checkbox" id="accion"> caducable 
         <input type="checkbox" id="accion">comentable
     </div>
