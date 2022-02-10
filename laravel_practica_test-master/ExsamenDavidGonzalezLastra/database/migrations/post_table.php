@@ -19,7 +19,7 @@ class post_table extends Migration
             $table->string('id_usuario'); 
             $table->string('titulopublicacion');
             $table->boolean('caducable'); 
-            $table->string('extracto_publicacion')
+            $table->string('extracto_publicacion');
             $table->boolean('comentable'); 
             $table->string('acceso'); 
             $table->string('privado'); 
